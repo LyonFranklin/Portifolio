@@ -1,0 +1,52 @@
+@use '../../Sass/Variables'
+
+.Menu
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 10px 20px
+  background-color: blue
+  z-index: 1000
+
+  .logo
+    color: red
+    text-decoration: none
+    font-size: 24px
+    font-weight: bold
+
+  ul
+    list-style: none
+    display: flex
+    margin: 0
+    padding: 0
+
+  li
+    margin-left: 20px
+
+  a
+    color: black
+    text-decoration: none
+    font-size: 18px
+    transition: color 0.3s
+
+  a:hover
+    color: lighten(red, 20%)
+
+@media (max-width: 768px)
+  .Menu
+    flex-direction: column
+    align-items: flex-start
+    padding: 10px
+
+  ul
+    flex-direction: column
+    width: 100%
+    padding-left: 20px
+
+  li
+    margin-left: 0
+    margin-top: 10px
