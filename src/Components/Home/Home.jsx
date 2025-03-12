@@ -11,7 +11,7 @@ const Home = () => {
       <h1>* VISUAL DESIGN * UX/UI DESIGN * MOTION DESIGN * FRONT-END DEV *  PRODUC DESIGN * </h1>
 
       <div className="home-buttons">
-        <button className="btn-primary">Currículo</button>
+      <button className="btn-primary">Currículo</button>
       </div>
 
       <Servico />   

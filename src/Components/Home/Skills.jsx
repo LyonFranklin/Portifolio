@@ -33,7 +33,12 @@ const Skills = () => {
     <div class="keyword">Arquitetura de marcas</div>
     <div class="keyword outline">Place branding</div>
   </div>
+
+  <h1>Let’s work together!  to say hi, feel free to send me mail.</h1>
   </div>
+
+
+  
   );
 };
 

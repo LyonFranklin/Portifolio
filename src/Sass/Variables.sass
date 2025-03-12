@@ -1,28 +1,21 @@
-// --------- Cores -------------------
 :root
+  
+  // Cores
+$primary-color: #333
+$secondary-color: #f4f4f4
+$text-color: #fff
   --primeira-cor: #000AFF
   --secondary-color: #2ecc71
-
   --texto-cor: #050505
   --textobranco-cor: #ffffff
-  --fundo-cor: #f4f4f4
+  --fundo-cor: #f4f4f4    
 
-  // Tipografia
-  --font-family-primary: 'Roboto', sans-serif
-  --font-family-secondary: 'Open Sans', sans-serif
-  --font-size-base: 16px
-  --font-size-sm: 14px
-  --font-size-lg: 20px
-  --line-height-base: 1.5
-  --font-weight-regular: 400
-  --font-weight-bold: 700
+// Tipografia
+$font-stack: Arial, sans-serif
 
-  
-
-  // Espaçamento
-    
+// Espaçamentos
+$spacing: 20px
   --spacing-unit: 8px
-
 
   // Breakpoints
   --breakpoint-xs: 320px
@@ -31,6 +24,24 @@
   --breakpoint-lg: 992px
   --breakpoint-xl: 1200px
 
+  // Container
+
+
+  // Buttons
+.button 
+  padding: $button-padding
+  border-radius: $button-radius
+  font-family: $font-family
+  border: none
+  color: #fff
+  background-color: $primary-color
+  transition: background-color 0.3s ease
+
+.button--secondary 
+  background-color: $secondary-color
+
   // Efeitos visuais
+
+
 
 

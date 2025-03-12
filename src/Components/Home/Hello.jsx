@@ -16,7 +16,7 @@ const hello = () => {
         unindo minhas habilidades para projetos e soluções intuitivas e eficazes.
     </h2> 
 
-    <button>Curriculo</button>    
+    <button className="btn-primary">Currículo</button>
   </div>
 
   <div className='foto'>
@@ -25,9 +25,13 @@ const hello = () => {
 
     <div className='redes'>
     <h1 className="redeslink">Redes Sociais</h1>
+
+    <a className='Link'>Github</a>
+    <a className='Link'>Linkedn</a>
+    <a className='Link'>Behance</a>
     </div> 
     </div>
   )
 }
 
-export default hello
+export default hello;
