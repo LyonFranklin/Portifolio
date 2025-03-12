@@ -7,15 +7,15 @@ const Servico = () => {
       {/* Cards de serviços */}
       <div className="service-cards">
         <div className="card">
-          <h2>Serviço 1</h2>
+          <h2>UX/UI Design</h2>
           <p>Descrição genérica sobre o serviço oferecido, destacando benefícios e diferenciais.</p>
         </div>
         <div className="card">
-          <h2>Serviço 2</h2>
+          <h2>Dev. Front-End</h2>
           <p>Descrição genérica sobre o serviço oferecido, destacando benefícios e diferenciais.</p>
         </div>
         <div className="card">
-          <h2>Serviço 3</h2>
+          <h2>Motion Design</h2>
           <p>Descrição genérica sobre o serviço oferecido, destacando benefícios e diferenciais.</p>
         </div>
       </div>
