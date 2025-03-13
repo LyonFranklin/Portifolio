@@ -1,47 +1,55 @@
-:root
-  
-  // Cores
-$primary-color: #333
-$secondary-color: #f4f4f4
-$text-color: #fff
-  --primeira-cor: #000AFF
-  --secondary-color: #2ecc71
-  --texto-cor: #050505
-  --textobranco-cor: #ffffff
-  --fundo-cor: #f4f4f4    
+@import url('https://fonts.googleapis.com/css2?family=NomeDaFonte&display=swap')
+ 
+ // Cores
+$primary-color: #a600ff
+$secondary-color: #2ecc71
+$text-color: #050505
+$text-white: #ffffff
+$background-color: #f4f4f4
+$secondary-color: #fff
+$bg-light: #f9f9f9
 
 // Tipografia
-$font-stack: Arial, sans-serif
+$font: Red Hat Display, Arial
 
 // Espaçamentos
-$spacing: 20px
-  --spacing-unit: 8px
+$spacing-unit: 4px
 
-  // Breakpoints
-  --breakpoint-xs: 320px
-  --breakpoint-sm: 576px
-  --breakpoint-md: 768px
-  --breakpoint-lg: 992px
-  --breakpoint-xl: 1200px
+// Breakpoints
+$breakpoint-xs: 320px
+$breakpoint-sm: 576px
+$breakpoint-md: 768px
+$breakpoint-lg: 992px
+$breakpoint-xl: 1200px
 
-  // Container
+// Container
+$container-max-width: 1200px
+$container-padding: 16px
 
+.container
+  max-width: $container-max-width
+  margin: 0 auto
+  padding: 0 $container-padding
+  display: flex
+  flex-direction: column
+  align-items: center
 
-  // Buttons
-.button 
+// Estilos para Botões
+$button-padding: 12px 20px
+$button-radius: 5px
+$button-font-family: $font
+
+.button
   padding: $button-padding
   border-radius: $button-radius
-  font-family: $font-family
+  font-family: $button-font-family
   border: none
-  color: #fff
+  color: $text-white
   background-color: $primary-color
   transition: background-color 0.3s ease
 
-.button--secondary 
+.button--secondary
   background-color: $secondary-color
-
-  // Efeitos visuais
-
 
 
 

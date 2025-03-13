@@ -7,7 +7,7 @@ const Servico = () => {
       {/* Cards de serviços */}
       <div className="service-cards">
         <div className="card">
-          <h2>UX/UI Design</h2>
+          <h1>UX/UI Design</h1>
           <p>De wireframes a jornadas do usuário, 
             utilizo diversas técnicas de UX para oferecer experiências que atendam tanto às necessidades 
             do negócio quanto às expectativas do usuário. Realizo  pesquisas interativas, entrevistas com usuários e análise de 

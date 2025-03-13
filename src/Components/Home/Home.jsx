@@ -7,7 +7,7 @@ import Historico from './Historico';
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home ">
       <h1>* VISUAL DESIGN * UX/UI DESIGN * MOTION DESIGN * FRONT-END DEV *  PRODUC DESIGN * </h1>
 
       <div className="home-buttons">
