@@ -1,21 +1,44 @@
 @use '../../Sass/Variables.sass' as Var
 
-.home
-  text-align: center
-  padding: 80px 20px
-  background-color: Var.$primary-color
+.menu 
+  display: grid
+  grid-template-columns: repeat(Var.$grid-columns, 1fr)
+  align-items: center
+  padding: Var.$container-padding
+  max-width: Var.$container-max-width
+  margin: 0 auto
 
-h1
-  font-display: Var.$font
-  font-size: 36px
-  font-weight: bold
-  margin-bottom: 20px
+.menu-logo 
+  grid-column: span 2
+  font-family: Var.$font
+  font-size: 1.5rem
+  color: Var.$primary-color
+  
+.menu-links 
+  grid-column: span 8
+  display: flex
+  justify-content: center
+  gap: Var.$grid-gutter
+
+a 
+  font-family: Var.$font
   color: Var.$text-color
+  text-decoration: none
 
-  p
-    font-size: 18px
-    color: Var.$text-color
-    margin-bottom: 30px
+  &:hover 
+    color: lighten(Var.$primary-color, 10%)    
+    
+  
+.btn-primary 
+  grid-column: span 2// Botão ocupa 2 colunas
+  padding: Var.$button-padding
+  border-radius: Var.$button-radius
+  background-color: Var.$primary-color
+  color: Var.$text-white
+  border: none
+  cursor: pointer
 
+  &:hover 
+    background-color: lighten(Var.$primary-color, 10%)
 
-
+  

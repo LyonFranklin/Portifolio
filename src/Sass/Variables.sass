@@ -1,6 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=NomeDaFonte&display=swap')
- 
- // Cores
+// Grid
+$grid-columns: 12 // Número total de colunas
+$grid-gutter: 16px // Espaçamento entre as colunas
+$container-padding: 16px // Espaço no início e no final do container
+
+// Container
+$container-max-width: 1200px
+$container-padding: 16px
+
+// Cores
 $primary-color: #a600ff
 $secondary-color: #2ecc71
 $text-color: #050505
@@ -22,34 +29,11 @@ $breakpoint-md: 768px
 $breakpoint-lg: 992px
 $breakpoint-xl: 1200px
 
-// Container
-$container-max-width: 1200px
-$container-padding: 16px
-
-.container
-  max-width: $container-max-width
-  margin: 0 auto
-  padding: 0 $container-padding
-  display: flex
-  flex-direction: column
-  align-items: center
-
-// Estilos para Botões
+// Base Botões
 $button-padding: 12px 20px
 $button-radius: 5px
 $button-font-family: $font
 
-.button
-  padding: $button-padding
-  border-radius: $button-radius
-  font-family: $button-font-family
-  border: none
-  color: $text-white
-  background-color: $primary-color
-  transition: background-color 0.3s ease
+//Cards
 
-.button--secondary
-  background-color: $secondary-color
-
-
-
+  =

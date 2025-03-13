@@ -6,13 +6,19 @@ import Bandeira from '../../img/Bandeira.png';
 
 export const Navbar = () => {
   return (
-    <nav className='Menu'>
+
+
+    <nav className='Menu container'>
+      <div className='Logo'>
       <img src={Logo} alt="Logo" width={100} />
-        <ul>
-        <li><Link to="/Home">Home</Link></li>
-        <li><Link to="/Projeto">Serviços</Link></li>
-        <li><Link to="/Contato">Contato</Link></li>
-      </ul> 
+      </div>
+      
+      <nav className="menu-links">
+
+        <a href="#home"><Link to="/Home">Home</Link></a>
+        <a href="#about"><Link to="/Projeto">Projetos</Link></a>
+        <a href="#contact"><Link to="/Contato">Contato</Link></a>
+      </nav>
 
       <button className="btn-primary">
         <img src={Bandeira} alt="Bandeira" width={70} />        

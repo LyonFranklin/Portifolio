@@ -2,6 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './Components/Home/Home.jsx';
 import Projeto from './Components/Projetos/Projeto.jsx';
 import Contato from './Components/Contato/Contato.jsx';
+import './Sass/Variables.sass'
 
 function App() {
   return (
